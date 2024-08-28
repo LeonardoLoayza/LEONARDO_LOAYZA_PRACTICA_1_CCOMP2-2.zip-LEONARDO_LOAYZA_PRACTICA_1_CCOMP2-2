@@ -1,0 +1,145 @@
+1a) main porque asi esta definido por el compilador 
+1b) #, compiled -> es asi para que sean faciles de cambiar y compilar in diferentes ambientes de ejecucion
+1c) // son ignoradas por el compilador 
+1d) ==, = -> uno se usa para comparar, el otro para dar valor a una variable
+1e) }, {} son usadas para definir el inicio y el final de la funcion 
+
+2.2 
+a) falso, son ignoradas por el compilador 
+b) verdadero, se forman scape sequence para definir characters especiales por ejm \n
+c) falso, todas empiezan por funcion main 
+d) verdadero, C++ es un lenguaje fuertemente tipado y un lenguaje con tipo estático
+e) verdadero, ya que es necesario para que el compilador sepa donde empezar
+f) verdadero, si a menos que se ponga characters especiales 
+g) verdadero, se suele usar 1 o 0 para ver si existe algun problema
+h) falso, existe un orden de precedencia en c++ 
+I) verdadero, ocurren en la fase de compilacion 
+
+2.3
+a) 
+int c{0}, thisIsAVariable{0}, q76354{0}, number{0}; 
+b)
+std::cout << "Ingresa entero"; 
+c)
+std::cin >> a;
+std::cout << a + 10;
+d)
+if (a>15) 
+  std::cout << a-5;
+else
+  std::cout << a;
+e)
+std::cout << "This is a C++ program\n";
+f)
+std::cout << "This is a C++ \nprogram\n";
+g)
+std::cout << "This\nis\na\nC++\nprogram\n";
+h)
+std::cout << "This\tis\ta\tC++\tprogram\n";
+
+2.4
+a) // aca defino e inicializo variables 
+int a{1},b{2},c{3};
+int result;
+result = a+b+c;
+b)
+int x{0};
+int y{0};
+int z{0};
+int result{0};
+c)
+std::cout << "tres enteros: ";
+d)
+std::cin >> x >> y >> z; 
+e)
+result = x*y*z;
+f) 
+std::cout << "The product is: " << result;
+g) retornando un entero para ver que el programa fue un exito
+return 0;
+
+2.5 aca junto todo el programa entero para pedir 3 numeros usando lo basico de c++ y la 
+libreria iostream.
+#include <iostream> 
+int main() 
+{
+  int x{0};
+  int y{0};
+  int z{0};
+  int result{0};
+  std::cout << "tres enteros:" << std::endl;
+  std::cin >> x >> y >> z;
+  result = x*y*z;
+  std::cout << "The product is " << result << std::endl ;
+}
+
+2.6
+a) 
+falta un ) para el if 
+b) esta mal escrito, se escribe !=
+
+2.7)
+a ) es una libreria estandar para input y output 
+b ) se usa para enviar datos a un flujo de salida 
+
+2.8) 
+a) comments, son necesarios para documentar el codigo y a veces ayudan a leerlo mejor 
+b) std::cout  
+c) if statement 
+d) operadores de asignacion
+e) std::cin >> 
+
+2.9)
+a) std::cout << "Welcome to the maximal heart rate calculator";
+b) a = b*c
+c) std::cout << " this program caluclated thah this is the maximal heart rate of t he individual" << a;
+d) std::cin >> a >>b >>c;
+
+2.10)
+a) verdadero
+b) verdadero
+c) verdadero, es bastante popular
+d) verdadero, por ejemplo cuando sumamos o hacemos operaciones las podemos juntar 
+e) falso, $ en una variable causaria un error de sintaxis
+
+2.11) 
+a) falso
+b) multiplicacion 
+c) asignacion, por ejm cuando definimos una variable 
+
+2.12) 
+x=2, y=3 
+a) imprime -> 3 2
+b) 5 
+c) x is equal to 2 
+d) y = 3 
+e) no imprime nada 
+f) no imprime nada 
+g) 2 \\ 3 
+h) no imprime nada 
+i) 
+  2
+  3
+
+2.13)
+b) porque se asigna un nuevo valor a la variable 
+d) se asigna un nuevo valor a la variable usando cin 
+
+2.14) 
+ninguno es correcto
+
+2.15) 
+a) primero *, luego la /, despues + y ultimo - 
+b) primerio %, luego *, luego /, luego +, luego - 
+c) primero las operaciones del parentesis desde el mas anidado hasta el menos.
+siguiendo que * / tienen el mismo orden de precedencia, asi que si estan juntos
+se evaluara de izquierda a derecha, despues de eso veremos - y + y se evaluaran despues 
+de izquierda a derecha
+
+2.22)
+*****
+****
+***
+**
+*
+
